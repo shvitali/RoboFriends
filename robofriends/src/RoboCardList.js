@@ -6,7 +6,7 @@ class RoboCardList extends Component {
         return (
             <div>
                 {
-                    this.props.robots.map(robot =>
+                    this.props.robotsArray.map(robot =>
                         <RoboCard
                             key={robot.id}
                             name={robot.name}
